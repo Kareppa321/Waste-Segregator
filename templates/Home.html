@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="static/style.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+        <link rel="icon" src="/static/logo.png" type="x-icon">
+        <title>Home - Reuse.IT</title>
+    </head>
+    <body>
+        <!-- Nav -->
+        <div class="navigation" style="margin-top: 10px;">
+            <nav height="100"> 
+                <ul class="nav-type">
+                        <!-- <a class="navbar-brand" href="#">
+                            <img src="logo.png" alt="..." height="75" width="75" >
+                        <h1 style="display: inline; vertical-align: top; align-items: center;">Reuse.IT</h1>
+                        </a> -->
+                    <li><a href="" target="_blank" class="active">Home</a></li>
+                    <li><a href="" target="_blank" class="active1">About</a></li>
+                    <li><a href="" target="_blank" class="active2">Contact</a></li>
+                    <li><a href="" target="_blank" class="active3">Support</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="container" style="display: flex; align-items: center; flex-direction: column; width: 90%; background: linear-gradient(to right, #FF4B2B, #FF416C);">
+            <img src="/static/logo.png" alt="Reuse.IT" height="200" width="200" >
+            <h1 style="font-size: 4em; color: #FFFFFF;font-family: 'Playfair Display', serif;">Reuse.IT</h1>
+            <p style="color: white; padding-left: 250px; padding-right: 250px; font-size: 1em;"> Reuse.IT is a website for all citizens to issue complaints regarding the waste. Our main aim is to make this city clean where the waste can be segregated according to the type and can be recycled for further use.</p>
+            <p style="color: white; padding-left: 200px; padding-right: 200px; margin-bottom: -10px; font-size: 1em;"> To Get Started,</p>
+            <a href="{{url_for('login')}}"><button class="ghost">LogIn</button></a>
+        </div>
+        
+    </body>
+</html>
